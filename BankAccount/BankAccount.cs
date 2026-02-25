@@ -19,7 +19,7 @@ class BankAccount
         {
             Balance += amount;
             Console.WriteLine($"{amount}원 입금 완료. 잔액: {Balance}");
-        }                            
+        }
     }
 
     public void Withdraw(int amount)
